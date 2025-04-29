@@ -1,5 +1,7 @@
-const base_url = "animate-json/streaming-transcribing/images";
-const img_0 = `${base_url}/img_0.png`;
+const baseUrl =
+  "https://cdn.jsdelivr.net/gh/mindcruiser/notta-web-static-files-storage@v1.0.3";
+const fileUrl = "/animate-json/streaming-transcribing/images";
+const img_0 = `${baseUrl}/${fileUrl}/img_0.png`;
 
 export default {
   v: "5.7.14",
@@ -11,7 +13,7 @@ export default {
   nm: "Animation_Recording",
   ddd: 0,
   assets: [
-    { id: "image_0", w: 150, h: 252, u: "", p: img_0, e: 0 },
+    { id: "image_0", w: 150, h: 252, p: img_0, e: 1 },
     {
       id: "comp_0",
       nm: "预合成 1",
